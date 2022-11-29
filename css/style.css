@@ -1,0 +1,118 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+/* common css end */
+/* slider part start */
+#background{
+    background: black;
+}
+.slide_one{
+    background: url(../images/1.jpg) no-repeat center;
+    background-size: cover;
+}
+.slide_two{
+    background: url(../images/2.jpg) no-repeat center;
+    background-size: cover;
+}
+.slide_three{
+    background: url(../images/3.jpg) no-repeat center;
+    background-size: cover;
+}
+.slide_four{
+    background: url(../images/4.jpg) no-repeat center;
+    background-size: cover;
+}
+.slide_five{
+    background: url(../images/5.jpg) no-repeat center;
+    background-size: cover;
+}
+.slide_six{
+    background: url(../images/6.jpg) no-repeat center;
+    background-size: cover;
+}
+.slide_seven{
+    background: url(../images/7.jpg) no-repeat center;
+    background-size: cover;
+}
+.slide_eight{
+    background: url(../images/8.jpg) no-repeat center;
+    background-size: cover;
+}
+.slide_nine{
+    background: url(../images/9.jpg) no-repeat center;
+    background-size: cover;
+}
+.slide_ten{
+    background: url(../images/10.jpg) no-repeat center;
+    background-size: cover;
+}
+.slide_eleven{
+    background: url(../images/11.jpg) no-repeat center;
+    background-size: cover;
+}
+.slide_twelve{
+    background: url(../images/12.jpg) no-repeat center;
+    background-size: cover;
+}
+.slide_thirteen{
+    background: url(../images/13.jpg) no-repeat center;
+    background-size: cover;
+}
+.blur{
+	background: rgba(240, 227, 227, 0.1);
+	backdrop-filter: blur(7px);
+	padding: 400px 0;
+	z-index: 8;
+    position: relative;
+}
+/* slider part end */
+/* counter part start */
+.timer{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+}
+.text_part{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 9;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.text_part h3{
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 75px;
+    color: paleturquoise;
+    line-height: 105px;
+}
+.col-lg-3 h2{
+    font-family: 'Nerko One', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    color: wheat;
+}
+.col-lg-3 h1{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 25px;
+    color: lightgreen;
+}
+/* counter part end */
